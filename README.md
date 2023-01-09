@@ -2,6 +2,8 @@
 
 ## How to Contact Me
 - <a rel="me" href="https://fosstodon.org/@codehead">Mastodon</a>
+- <a href="https://www.linkedin.com/in/wolpert">Linkedin</a>
+- email: ned dot wolpert at gmail doc com
 
 ## Open Source Projects
 
@@ -66,11 +68,10 @@ consumption. i.e., ideas but not enough there to share.
 A rust project that securely encrypts data against a terrapin backend. Gives the
 data owner control of data used by 3rd parties.
 
-* Distributed Store
+* [Distributed Store](https://github.com/wolpert/dstore)
 
 Started my own dynamodb. Idea is folks could have an off-premise DDB clone to
 save a buck. Built to be multi-tenant, secure, and (eventually) API compatible
 with the real thing.
 
-Leaving Amazon, I miss DynamoDB. So I started my own. No, there is no other rational
-reason. That's it.
+Leaving Amazon, I miss DynamoDB. So I started my own. No, there is no other rational reason. That's it.
