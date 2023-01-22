@@ -11,6 +11,15 @@ The following is a list of open-source projects that are published on Github. I
 have a bunch in the works but not ready to share. These are all Java projects unless
 otherwise noted.
 
+* [Distributed Store](https://github.com/wolpert/dstore)
+
+Started my own dynamodb. Idea is folks could have an off-premise DDB clone to
+save a buck, and be high-cardinality index friendly unlike Cassandra.
+Built to be multi-tenant, secure, and (eventually) API compatible with the real thing.
+
+Leaving Amazon, I miss DynamoDB. So I started my own. No, there is no other 
+rational reason. That's it. And I'm having fun building it.
+
 * [CodeHead Test](https://github.com/wolpert/codehead-test)
 
 Provides test utilities I use. Generally around Jupiter, immutables and
@@ -67,11 +76,3 @@ consumption. i.e., ideas but not enough there to share.
 
 A rust project that securely encrypts data against a terrapin backend. Gives the
 data owner control of data used by 3rd parties.
-
-* [Distributed Store](https://github.com/wolpert/dstore)
-
-Started my own dynamodb. Idea is folks could have an off-premise DDB clone to
-save a buck. Built to be multi-tenant, secure, and (eventually) API compatible
-with the real thing.
-
-Leaving Amazon, I miss DynamoDB. So I started my own. No, there is no other rational reason. That's it.
