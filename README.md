@@ -11,7 +11,7 @@ The following is a list of open-source projects that are published on Github. I
 have a bunch in the works but not ready to share. These are all Java projects unless
 otherwise noted.
 
-* [Distributed Store](https://github.com/wolpert/dstore)
+* [Svarm](https://github.com/wolpert/svarm)
 
 Started my own dynamodb. Idea is folks could have an off-premise DDB clone to
 save a buck, and be high-cardinality index friendly unlike Cassandra.
