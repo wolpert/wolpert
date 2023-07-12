@@ -11,6 +11,10 @@ The following is a list of open-source projects that are published on Github. I
 have a bunch in the works but not ready to share. These are all Java projects unless
 otherwise noted.
 
+* [Star Field](https://github.com/wolpert/star_field/)
+
+Learning the Bevy game engine which is written in rust. A minor project.
+
 * [Svarm](https://github.com/wolpert/svarm)
 
 Started my own dynamodb. Idea is folks could have an off-premise DDB clone to
