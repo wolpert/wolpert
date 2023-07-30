@@ -3,7 +3,7 @@
 ## How to Contact Me
 - <a rel="me" href="https://fosstodon.org/@codehead">Mastodon</a>
 - <a href="https://www.linkedin.com/in/wolpert">Linkedin</a>
-- email: ned dot wolpert at gmail doc com
+- email: ned dot wolpert at gmail dot com
 
 ## Open Source Projects
 
