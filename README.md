@@ -1,7 +1,7 @@
 # Ned Wolpert
 
 ## How to Contact Me
-- <a rel="me" href="https://fosstodon.org/@codehead">Mastodon</a>
+- <a rel="me" href="https://hachyderm.io/@CodeHead">Mastodon</a>
 - <a href="https://www.linkedin.com/in/wolpert">Linkedin</a>
 - email: ned dot wolpert at gmail dot com
 
