@@ -11,6 +11,11 @@ The following is a list of open-source projects that are published on Github. I
 have a bunch in the works but not ready to share. These are all Java projects unless
 otherwise noted.
 
+* [Simple OTP](https://github.com/Simple-OTP/simple-otp)
+
+With the demise of the desktop version of authy, I decided to make my own.
+Using flutter so it's easy to be available on different platforms. 
+
 * [Svarm](https://github.com/wolpert/svarm)
 
 Started my own dynamodb. Idea is folks could have an off-premise DDB clone to
