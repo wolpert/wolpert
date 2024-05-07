@@ -25,6 +25,18 @@ Built to be multi-tenant, secure, and (eventually) API compatible with the real 
 Leaving Amazon, I miss DynamoDB. So I started my own. No, there is no other 
 rational reason. That's it. And I'm having fun building it.
 
+* [Feature-Flag](https://github.com/wolpert/feature-flag)
+
+A utility I built for svarm, but put into it's own project to share
+it.  It's an implementation of A/B testing using the simplistic
+'Feature Toggle' idea Martin Fowler wrote about years ago. I used
+something similar back in Amazon when I was on the Alexa
+project. Amazon had a full-feature A/B library, but it was
+over-bearing so Alexa devs made a simpler one. This is based on that
+one.
+
+Battle tested tyvm.
+
 * [CodeHead Test](https://github.com/wolpert/codehead-test)
 
 Provides test utilities I use. Generally around Jupiter, immutables and
