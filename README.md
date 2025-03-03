@@ -18,7 +18,8 @@ Using flutter so it's easy to be available on different platforms.
 
 * [The Libraries](https://github.com/wolpert/libraries/)
 Various open-source Java libraries, including:
-** [Feature-Flag](https://github.com/wolpert/feature-flag)
+
+     * [Feature-Flag](https://github.com/wolpert/feature-flag)
 
 A utility I built for svarm, but put into it's own project to share
 it.  It's an implementation of A/B testing using the simplistic
@@ -28,23 +29,23 @@ project. Amazon had a full-feature A/B library, but it was
 over-bearing so Alexa devs made a simpler one. This is based on that
 one.
 
-** [CodeHead Test](https://github.com/wolpert/codehead-test)
+     * [CodeHead Test](https://github.com/wolpert/codehead-test)
 
 Provides test utilities I use. Generally around Jupiter, immutables and
 jackson. Small, easy to consume.
 
 
-** [Database Test](https://github.com/wolpert/database-test)
+     * [Database Test](https://github.com/wolpert/database-test)
 
 Test utilities I have around databases. Mostly around cassandra and unique
 strings. Moved out of codehead-test because they are really specialized.
 
-** [Metrics](https://github.com/wolpert/metrics)
+     * [Metrics](https://github.com/wolpert/metrics)
 
 Dropwizard/Micrometer integration with dagger support. Helper utilities
 including help for unit tests with code that use metrics.
 
-** [OOP Mock](https://github.com/wolpert/oop-mock)
+     * [OOP Mock](https://github.com/wolpert/oop-mock)
 
 Out of process mock facilities. Gives you the ability to mock downstream dependencies
 in your functional tests. Useful if you want to separate out service level
@@ -52,7 +53,7 @@ tests from external integration frameworks. Ideal for those who have separate
 tests for functional and integration. I built this because I as an ex-amazon
 developer, I missed the internal project called Chameleon.
 
-* [State Machine Redux](https://github.com/wolpert/state-machine-redux)
+    * [State Machine Redux](https://github.com/wolpert/state-machine-redux)
 
 A simpler state machine project. I realized the previous one got a bit out
 of hand. This one is easy to use, allows for the import/export of state
