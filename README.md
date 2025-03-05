@@ -53,7 +53,7 @@ Various open-source Java libraries, including:
 	tests for functional and integration. I built this because I as an ex-amazon
 	developer, I missed the internal project called Chameleon.
 
-	* [State Machine Redux](https://github.com/wolpert/libraries/tree/main/state-machine-redux)
+	* [State Machine Redux](https://github.com/wolpert/libraries/tree/main/smr)
 
 	A simpler state machine project. I realized the previous one got a bit out
 	of hand. This one is easy to use, allows for the import/export of state
