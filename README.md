@@ -21,56 +21,56 @@ Various open-source Java libraries, including:
 
 	* [Feature-Flag](https://github.com/wolpert/feature-flag)
 
-A utility I built for svarm, but put into it's own project to share
-it.  It's an implementation of A/B testing using the simplistic
-'Feature Toggle' idea Martin Fowler wrote about years ago. I used
-something similar back in Amazon when I was on the Alexa
-project. Amazon had a full-feature A/B library, but it was
-over-bearing so Alexa devs made a simpler one. This is based on that
-one.
+	A utility I built for svarm, but put into it's own project to share
+	it.  It's an implementation of A/B testing using the simplistic
+	'Feature Toggle' idea Martin Fowler wrote about years ago. I used
+	something similar back in Amazon when I was on the Alexa
+	project. Amazon had a full-feature A/B library, but it was
+	over-bearing so Alexa devs made a simpler one. This is based on that
+	one.
 
-	* [CodeHead Test](https://github.com/wolpert/codehead-test)
+    * [CodeHead Test](https://github.com/wolpert/codehead-test)
 
-Provides test utilities I use. Generally around Jupiter, immutables and
-jackson. Small, easy to consume.
+	Provides test utilities I use. Generally around Jupiter, immutables and
+	jackson. Small, easy to consume.
 
 
 	* [Database Test](https://github.com/wolpert/database-test)
 
-Test utilities I have around databases. Mostly around cassandra and unique
-strings. Moved out of codehead-test because they are really specialized.
+	Test utilities I have around databases. Mostly around cassandra and unique
+	strings. Moved out of codehead-test because they are really specialized.
 
 	* [Metrics](https://github.com/wolpert/metrics)
 
-Dropwizard/Micrometer integration with dagger support. Helper utilities
-including help for unit tests with code that use metrics.
+	Dropwizard/Micrometer integration with dagger support. Helper utilities
+	including help for unit tests with code that use metrics.
 
 	* [OOP Mock](https://github.com/wolpert/oop-mock)
 
-Out of process mock facilities. Gives you the ability to mock downstream dependencies
-in your functional tests. Useful if you want to separate out service level
-tests from external integration frameworks. Ideal for those who have separate
-tests for functional and integration. I built this because I as an ex-amazon
-developer, I missed the internal project called Chameleon.
+	Out of process mock facilities. Gives you the ability to mock downstream dependencies
+	in your functional tests. Useful if you want to separate out service level
+	tests from external integration frameworks. Ideal for those who have separate
+	tests for functional and integration. I built this because I as an ex-amazon
+	developer, I missed the internal project called Chameleon.
 
 	* [State Machine Redux](https://github.com/wolpert/state-machine-redux)
 
-A simpler state machine project. I realized the previous one got a bit out
-of hand. This one is easy to use, allows for the import/export of state
-machines, but more viable for games as well as larger projects. The KISS
-version.
+	A simpler state machine project. I realized the previous one got a bit out
+	of hand. This one is easy to use, allows for the import/export of state
+	machines, but more viable for games as well as larger projects. The KISS
+	version.
 
-* [Local Queue](https://github.com/wolpert/local-queue)
+	* [Local Queue](https://github.com/wolpert/local-queue)
 
-A library that provides a durable queue for your project. Used for async
-tasks that you want to manage, but don't want a full-featured message
-queue like SQS or even ActiveMQ. This was taken from the Svarm project
-and in the process of being refactored.
+	A library that provides a durable queue for your project. Used for async
+	tasks that you want to manage, but don't want a full-featured message
+	queue like SQS or even ActiveMQ. This was taken from the Svarm project
+	and in the process of being refactored.
 
 
 * [State Machine](https://github.com/wolpert/statemachine)
 
-A state machine you can use internal to your java project. This was used
+OLD: A state machine you can use internal to your java project. This was used
 back when I had a consulting job, and I made an open-source version. It still
 needs work, but useful to start with. If you like to help, contact me and I
 can review what's missing.
