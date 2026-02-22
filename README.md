@@ -16,6 +16,31 @@ otherwise noted.
 With the demise of the desktop version of authy, I decided to make my own.
 Using flutter so it's easy to be available on different platforms. 
 
+* [the Hofmann Elimination](https://github.com/wolpert/hofmann-elimination)
+
+In an effort to reduce the attack surface for websites with login credentials,
+I implemented OPAQUE/OPRF from RFC specs. OPAQUE removes the need to send the
+private key material (passwords, etc) to the website and yet still provide
+strong authentication for login. It does this by using the OPRF protocol and
+elliptic curves for hashing. All 3 RFCs that are involved with this protocol
+have been implemented in Java using Bouncy Castle as the core. Updates will
+include having JavaScript clients and, in the future, implementations in 
+other languages like Rust, Go and C# with full testing libraries. 
+
+* [PretenderDB](https://github.com/PretenderDB/PretenderDB)
+
+PretenderDB is essentially DynamoDB-Local but instead of it using an embedded 
+in memory SQLite database, you configure it to use PostgreSQL. Gives you the
+ability to have production quality services that you can run locally until you
+prove out that you want to push to AWS itself. This lets you have the same
+database schema when running locally or when running in AWS. Intended for small
+services you think will need to scale to AWS levels, but don't want to deploy
+in AWS until then.
+
+With the demise of the desktop version of authy, I decided to make my own.
+Using flutter so it's easy to be available on different platforms. 
+
+
 * [The Libraries](https://github.com/wolpert/libraries/)
 Various open-source Java libraries, including:
 
