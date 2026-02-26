@@ -16,7 +16,7 @@ otherwise noted.
 With the demise of the desktop version of authy, I decided to make my own.
 Using flutter so it's easy to be available on different platforms. 
 
-* [the Hofmann Elimination](https://github.com/wolpert/hofmann-elimination)
+* [the Hofmann Elimination](https://github.com/codeheadsystems/hofmann-elimination)
 
 In an effort to reduce the attack surface for websites with login credentials,
 I implemented OPAQUE/OPRF from RFC specs. OPAQUE removes the need to send the
