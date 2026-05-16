@@ -9,7 +9,8 @@
 
 The following is a list of open-source projects that are published on Github. I
 have a bunch in the works but not ready to share. These are all Java projects unless
-otherwise noted.
+otherwise noted. Also, check out what's at [CodeHead Systems](https://github.com/codeheadsystems) public 
+repositories as well, as I've got a bunch there that may not be named here.
 
 * [Simple OTP](https://github.com/Simple-OTP/simple-otp)
 
